@@ -1,0 +1,72 @@
+body {
+	overflow: hidden;
+	background: #242424;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+div {
+	width: 100%;
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+	display: inline;
+}
+
+.overlay {
+	fill: none;
+	cursor: auto;
+	pointer-events: all;
+}
+
+.active {
+	stroke-width: 1;
+}
+
+.inactive {
+	pointer-events: none;
+}
+
+text {
+	text-anchor: middle;
+	alignment-baseline: middle;
+	fill: #f7f7f7;
+	font-family: "Lucida Console";
+	pointer-events:none;
+}
+
+text.info {
+	text-anchor: start;
+	font-size: 2.2vmin;
+}
+
+#title {
+	font-size: 1.9vmin;
+	fill: #f7f7f7;
+	opacity: 1;
+}
+
+circle {
+	stroke-width: 5;
+}
+
+circle:hover {
+	stroke-width: 1;
+}
+
+#header {
+	background: #363636;
+	height: 9%;
+}
+
+#footer{
+	background: #363636;
+	height: 27%;
+}
+
+#middle{
+	height: 64%;
+}
